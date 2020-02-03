@@ -3,7 +3,7 @@ def remover_acentos(txt, codif='utf-8'):
     return normalize('NFKD', txt).encode('ASCII', 'ignore')
 
 import os
-rootdir = r'C:\Users\c110531\Desktop\recfacial_bkp_linux'
+rootdir = r'path'
 
 for dirs in os.walk(rootdir): 
 	str_dirs=str(dirs[0])
